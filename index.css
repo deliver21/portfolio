@@ -1,3 +1,7 @@
+body
+{
+    border: none;
+}
 *{
     padding:0;
     margin:0;
@@ -268,6 +272,7 @@ box-shadow: -8px 6px 89px -54px rgba(0,0,0,0.75);
     display: inline-block;
     cursor:pointer;
     letter-spacing: 2px;
+
 }
 .item{
     position: relative;
@@ -315,8 +320,14 @@ opacity:0;
 .portfolio-modal img
 {
     max-height: 400px;
-    max-width: 400px;
-    overflow-y: auto;
+    width: fit-content;
+    object-fit: cover;
+    overflow: auto;
+}
+.portfolio-modal .box
+{
+    overflow: auto;
+    width: 100%;
 }
 .blog .card
 {
