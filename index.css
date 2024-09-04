@@ -18,6 +18,8 @@ body html{
 }
 .nav-link
 {
+    margin: 5px;
+    padding-left: 5px;
     color:black;
     font-size: 1rem;
     cursor: pointer;
