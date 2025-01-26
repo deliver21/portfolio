@@ -240,10 +240,9 @@ h1{
 {
     border:none;
     outline:none;
-
     -webkit-box-shadow: -8px 6px 89px -54px rgba(0,0,0,0.75);
--moz-box-shadow: -8px 6px 89px -54px rgba(0,0,0,0.75);
-box-shadow: -8px 6px 89px -54px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -54px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 89px -54px rgba(0,0,0,0.75);
 }
 .card p{
     color:gray;
@@ -345,10 +344,12 @@ opacity:0;
 .blog .card
 {
    border-radius: 10px;
+   height: 350px;
+   overflow: inherit;
 }
 .blog .card:hover
 {
-    height:345px;
+    height:350px;
     width: 345px;
     -webkit-box-shadow: -18px 3px 108px -65px rgba(0,0,0,0.75);
 -moz-box-shadow: -18px 3px 108px -65px rgba(0,0,0,0.75);
